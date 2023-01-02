@@ -1,0 +1,204 @@
+                /* 0 to 575*/
+                /* 576 to 767*/
+                /* 768 to 991*/
+                /*992 to 1199*/
+                /*1200 to 1399*/
+                /* X-Large devices (large desktops, less than 1400px) */
+                
+                @media (max-width: 1399.98px) {
+                    body {
+                        background-color: red;
+                    }
+                }
+                /* // Large devices (desktops, less than 1200px) */
+                
+                @media (max-width: 1199.98px) {
+                    body {
+                        background-color: greenyellow;
+                    }
+                }
+                /* // Medium devices (tablets, less than 992px) */
+                
+                @media (max-width: 991.98px) {
+                    body {
+                        /* background-color: gold; */
+                    }
+                }
+                /* // Small devices (landscape phones, less than 768px) */
+                
+                @media (max-width: 767.98px) {
+                    body {
+                        /* background-color: green; */
+                    }
+                    .style{
+                        font-size: 60px;
+                    }
+                }
+                /* // X-Small devices (portrait phones, less than 576px) */
+                
+                @media (max-width: 575.98px) {
+                    body {
+                        background-color: powderblue;
+                    }
+                    .box12 {
+                        font-size: 25px;
+                    }
+                    .container {
+                        padding: 0;
+                    }
+                    .service {
+                        display: none;
+                    }
+                    .logo {
+                        padding: 20px;
+                        margin: auto;
+                    }
+                    ul {
+                        justify-content: center;
+                        padding: 0;
+                    }
+                    li a {
+                        margin-left: 11px;
+                    }
+                    .style {
+                        font-size: 40px;
+                    }
+                    .style1 {
+                        font-size: 30px;
+                    }
+                    h5 {
+                        padding: 2px;
+                        font-size: 10px;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+                    .box {
+                        order: 2;
+                        padding: 10px;
+                        flex: 100%;
+                        width: 100%;
+                        margin: auto;
+                        text-align: center;
+                    }
+                    .box1 {
+                        margin: auto;
+                    }
+                    .box2 {
+                        height: 40px;
+                        width: 40px;
+                        outline: #bd2220 solid 6px;
+                        margin-top: -18%;
+                        margin-left: 15%;
+                    }
+                    .box6 {
+                        order: 1;
+                        flex: 0 0 100%;
+                        width: 100%;
+                    }
+                    h1 {
+                        font-size: 10px;
+                    }
+                    .text-size {
+                        font-size: 7px;
+                    }
+                    .flex-content {
+                        align-items: end;
+                        flex-wrap: wrap;
+                    }
+                    .flexitem {
+                        flex-wrap: wrap;
+                    }
+                    .box8 {
+                        flex: 0 0 100%;
+                    }
+                    .textsize {
+                        font-size: 20px;
+                    }
+                    .box9 {
+                        flex: 0 0 100%;
+                        margin: 0;
+                    }
+                    .box7 {
+                        margin-bottom: 0;
+                    }
+                    .box8 {
+                        padding: 20px;
+                    }
+                    .stylemenu {
+                        margin-left: 10px;
+                        padding: 10px;
+                        font-size: 10px;
+                    }
+                    .stylemenu2 {
+                        margin-left: 20px;
+                        padding: 10px;
+                    }
+                    .box02 {
+                        margin-top: 20px;
+                    }
+                    .flexitem {
+                        margin: auto;
+                        padding: 20px;
+                    }
+                    .box13 {
+                        color: #0c0b0973;
+                        margin: auto;
+                        margin: 20px auto;
+                    }
+                    .box11 {
+                        width: 50%;
+                        margin: auto;
+                        font-size: 20px;
+                    }
+                    .box12 {
+                        font-size: 30px;
+                    }
+                    .box17 {
+                        flex-wrap: wrap;
+                    }
+                    .boxmargin {
+                        flex: 0 0 100%;
+                        margin: 0;
+                        padding: 20px 0;
+                    }
+                    .boxmargin1 {
+                        flex: 0 0 100%;
+                        margin: 0;
+                        padding: 20px 0;
+                    }
+                    .boxmargin2 {
+                        flex: 0 0 100%;
+                        margin: 0;
+                        padding: 20px 0;
+                    }
+                    .box16 {
+                        margin-left: 18%;
+                    }
+                    .textstyle1 {
+                        text-align: center;
+                        font-size: 30px;
+                    }
+                    .textstyle {
+                        text-align: center;
+                        font-size: 40px;
+                        line-height: 1;
+                    }
+                    .textstyle2 {
+                        margin: auto;
+                        height: 50%;
+                        font-size: 15px;
+                        padding: 10px;
+                    }
+                    .items {
+                        flex-wrap: wrap;
+                    }
+                    .boxbg {
+                        width: auto;
+                        height: auto;
+                        padding: 0;
+                    }
+                    .box19 {
+                        flex: 0 0 100%;
+                        padding: 20px;
+                    }
+                }

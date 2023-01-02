@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="">
+    <meta name="discription" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://codeigniter.spruko.com/spruha/spruha-ltr/public/assets/img/brand/favicon.ico"
+        type="image/x-icon">
+    <title>Spruha - Codeigniter Admin &amp; Dashboard Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <source src="js/all.min.js">
+    </source>
+    <link rel="stylesheet" href="css/spruha.css">
+    <link rel="stylesheet" href="css/responsive.css ">
+</head>
+<body>
+    <!-- header-1 -->
+    <header class="header-1">
+        <div class="container">
+            <div class="header1-contentmain d-flex">
+                <div class="left">
+                    <select name="list" id="name">
+                        <option value="All categories">All categoriess</option>
+                        <option value="IT Projects">IT Projects</option>
+                        <option value="Business Case">Business Case</option>
+                        <option value="Microsoft Project">Microsoft Project</option>
+                        <option value="Risk Management">Risk Management</option>
+                        <option value="Team Building">Team Building </option>
+                    </select>
+                    <input type="text" placeholder="Search for anything...">
+                    <a href="#">
+                        <div class="left-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="bar-main">
+                    <div class="bar">
+                        <i class="fa-solid fa-bars"></i>
+                        <a href="#">
+                            <div class="logo">
+                                <div class="logo-img">
+                                    <img src="asset/logo.png" alt="">
+                                </div>
+                            </div>
+                        </a>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>      
+                </div>
+                <div class="right">
+                    <div class="right-icon">
+                        <a href="#">
+                            <div class="right-iconmain">
+                                <i class="fa-solid fa-magnifying-glass search"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="right-img1">
+                                <img src="asset/indian-flag.png" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="right-iconmain">
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="right-iconmain">
+                                <i class="fa-solid fa-bell wi"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="right-iconmain">
+                                <i class="fa-solid fa-message wi"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="right-img2">
+                                <img src="asset/jj.webp" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="right-img3">
+                                <img src="asset/rightimg3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-2 -->
+    <header class="header-2">
+        <div class="container">
+            <div class="header2-contentmain">
+                <div class="dropdown">
+                    <a href="#">
+                        <div class="header-box">
+                            <i class="fa-solid fa-house header2-icon"></i>
+                            <p>Dashboards</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">
+                        <div class="header-box" id="header-box2">
+                            <i class="fa-solid fa-table-columns header2-icon"></i>
+                            <p>Layouts</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a href="#">
+                        <div class="header-box">
+                            <i class="fa-solid fa-book header2-icon"></i>
+                            <p>Apps</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a href="#">
+                        <div class="header-box">
+                            <i class="fa-solid fa-kaaba header2-icon"></i>
+                            <p>Components</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a href="#">
+                        <div class="header-box">
+                            <i class="fa-brands fa-wpforms header2-icon"></i>
+                            <p>Forms</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a href="#">
+                        <div class="header-box">
+                            <i class="fa-brands fa-umbraco header2-icon"></i>
+                            <p>Utilities</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a href="#">
+                        <div class="header-box">
+                            <i class="fa-solid fa-face-smile header2-icon"></i>
+                            <p>Icons</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a href="#">
+                        <div class="header-box block">
+                            <i class="fa-solid fa-palette header2-icon"></i>
+                            <p>Pages</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>hu
+    </header>
+    <!-- section-1 -->
+    <section class="section-1">
+        <div class="container">
+            <div class="sec1-contentmain">
+                <div class="sec1-flex d-flex">
+                    <div class="sec1-content">
+                        <h2>Welcome To Dashboard</h2>
+                        <ol>
+                            <li><a href="#">Home</a></li>
+                            <li>/ Project Dashboard</li>
+                        </ol>
+                    </div>
+                    <div class="sec1-content-justify">
+                        <div class="sec1-d-flex">
+                            <button>
+                                <i class="fa-solid fa-download"></i>
+                                Import
+                            </button>
+                            <button id="sec1-content-justifybtn2">
+                                <i class="fa-solid fa-filter"></i>
+                                Filter
+                            </button>
+                            <div class="sec1-content-justify-btn">
+                                <i class="fa-solid fa-cloud-arrow-down"></i>
+                                Download Report
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content-1 -->
+                <div class="content1-flex">
+                    <div class="sec1-content1main">
+                        <div class="sec1-content1">
+                            <div class="sec1-content1-img">
+                                <img src="asset/laptop-girl.png" alt="">
+                            </div>
+                            <div class="sec1-content1heading">
+                                <h2>Sonia Taylor!</h2>
+                                <p>You have two projects to finish, you had completed <span>57%</span> from your montly
+                                    level, Keep going to </p>
+                            </div>
+                            <div class="sec1-content1-img-none">
+                                <img src="asset/laptop-girl.png" alt="">
+                            </div>
+                        </div>
+                        <!-- content-2 -->
+                        <div class="sec1-content2">
+                            <div class="sec1-content2-box d-flex ssame">
+                                <div class="media-flex">
+                                    <div class="sec1-content2-boxmain l-height main-bg" id="sec1-content2-boxmain1">
+                                        <h2 class="font-co">TOTAL REVENUE</h2>
+                                        <p class="font-po">Previous month vs this months</p>
+                                        <div class="sec1-content2-boxflex">
+                                            <div class="sec1-content2-boxflex-heading">
+                                                <h2>$5,900.00</h2>
+                                                <p class="font-po"><span id="green">55% </span>Higher</p>
+                                            </div>
+                                            <div class="sec1-content2-boxflexicon">
+                                                <i class="fa-solid fa-chart-column blue"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sec1-content2-boxmain l-height main-bg" id="sec1-content2-boxmain2">
+                                        <h2 class="font-co">NEW EMPLOYEES</h2>
+                                        <p class="font-po">Employees joined this month</p>
+                                        <div class="sec1-content2-boxflex">
+                                            <div class="sec1-content2-boxflex-heading">
+                                                <h2>15</h2>
+                                                <p class="font-po"><span id="green">5% </span>Increased</p>
+                                            </div>
+                                            <div class="sec1-content2-boxflexicon">
+                                                <i class="fa-solid fa-address-card blue"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sec1-content2-boxmain l-height main-bg" id="sec1-content2-boxmain3">
+                                    <h2 class="font-co">TOTAL EXPENSES</h2>
+                                    <p class="font-po">Previous month vs this months</p>
+                                    <div class="sec1-content2-boxflex">
+                                        <div class="sec1-content2-boxflex-heading">
+                                            <h2>$8,500</h2>
+                                            <p class="font-po"><span id="red">12% </span>Decrease</p>
+                                        </div>
+                                        <div class="sec1-content2-boxflexicon">
+                                            <i class="fa-solid fa-dollar-sign blue"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- content-3 -->
+                        <div class="sec1-content3main main-bg">
+                            <div class="main-padding">
+                                <div class="sec1-content3heading l-height">
+                                    <h2>PROJECT BUDGET</h2>
+                                    <p class="font-po">The Project Budget is a tool used by project managers to estimate
+                                        the total cost of a project</p>
+                                </div>
+                                <div class="sec1-content3-img">
+                                    <img src="asset/graph.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- content-4 -->
+                        <div class="sec1-content4main">
+                            <div class="sec1-content4-box1 main-bg ssame">
+                                <div class="sec1-content4">
+                                    <div class="sec1-content4-box1heading1">
+                                        <div>
+                                            <h2 class="font-co">TODAY TASKS</h2>
+                                            <p class="font-po">UX UI & Backend Developement.</p>
+                                        </div>
+                                        <div class="content4-flex">
+                                            <p class="font-po" id="sec1-content4-box1heading1-p1"><i
+                                                    class="fa-solid fa-circle blue"></i>Project</p>
+                                            <p class="font-po"><i class="fa-solid fa-circle ci"></i>Inprogress</p>
+                                        </div>
+                                    </div>
+                                    <div class="sec1-content4-box1heading2 d-flex">
+                                        <div class="me-padding">
+                                            <p>Project-Budget</p>
+                                            <h2 class="blue">$5,240</h2>
+                                            <p class="white" id="sec1-content4-box1heading2-p2">May 28 - June 01 (2018)
+                                            </p>
+                                        </div>
+                                        <div class="circle">
+                                            <img src="asset/con3img1.png" alt="">
+                                            <div class="main-circle">
+                                                <h2>75%</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sec1-content4-box2 main-bg ssame">
+                                <div class="sec1-content4">
+                                    <div class="sec1-content4-box2heading1">
+                                        <h2 class="font-co">TOP INQUIRIES</h2>
+                                        <p>project work involves a group of students investigating .</p>
+                                    </div>
+                                    <div class="sec1-content4-box2heading2">
+                                        <div class="sec1-content4-box2heading1-box">
+                                            <p>Brand identity</p>
+                                            <div class="hori-main">
+                                                <div class="hori-sec"></div>
+                                            </div>
+                                            <h2><i class="fa-solid fa-arrow-up"></i>24.75%</h2>
+                                        </div>
+                                        <div class="sec1-content4-box2heading1-box">
+                                            <p>UI & UX design</p>
+                                            <div class="hori-main">
+                                                <div id="hori-sec2" class="hori-sec"></div>
+                                            </div>
+                                            <h2><i class="fa-solid fa-arrow-down"></i>12.34%</h2>
+                                        </div>
+                                        <div class="sec1-content4-box2heading1-box">
+                                            <p>Product design</p>
+                                            <div class="hori-main">
+                                                <div id="hori-sec3" class="hori-sec"></div>
+                                            </div>
+                                            <h2><i class="fa-solid fa-arrow-up"></i>12.75%</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- content-5 -->
+                        <div class="sec1-content5main main-bg">
+                            <div class="main-padding">
+                                <div class="sec1-content5heading">
+                                    <div>
+                                        <h2 class="font-co">TASKS</h2>
+                                        <p class="font-po">A task is accomplished by a set deadline, and must contribute
+                                            toward work-related objectives.</p>
+                                    </div>
+                                    <a href="#">
+                                        <i class="fa-solid fa-ellipsis-vertical ver"></i>
+                                    </a>
+                                </div>
+                                <div class="sec1-content5-table">
+                                    <table class="border">
+                                        <thead>
+                                            <tr>
+                                                <th>TASK</th>
+                                                <th class="text-centerr">TEAM</th>
+                                                <th class="text-center">OPEN TASK</th>
+                                                <th class="none">PRORITY</th>
+                                                <th class="none">STATUS</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label>
+                                                        <input checked type="checkbox">
+                                                    </label>
+                                                    Evaluating the design
+                                                </td>
+                                                <td class="text-centerr">
+                                                    <div class="content5-boximg">
+                                                        <img src="asset/rightimg2.jpeg" alt="">
+                                                        <img id="mm" src="asset/asset 9.jpeg" alt="">
+                                                        <img id="mm" src="asset/asset 10.jpeg" alt="">
+                                                        <img id="mm" src="asset/asideimg5.jpeg" alt="">
+                                                    </div>
+                                                </td>
+                                                <td class="text-center">37</td>
+                                                <td class="none blue">High</td>
+                                                <td class="none"><a class="blue-bg fo10" href="#">Completed</a> </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label>
+                                                        <input checked type="checkbox">
+                                                    </label>
+                                                    Generate ideas for design
+                                                </td>
+                                                <td class="text-centerr">
+                                                    <div class="content5-boximg">
+                                                        <img src="asset/asideimg1.jpeg" alt="">
+                                                        <img id="mm" src="asset/asideimg2.jpeg" alt="">
+                                                        <img id="mm" src="asset/asideimg3.jpeg" alt="">
+                                                        <img id="mm" src="asset/asideimg4.jpeg" alt="">
+                                                    </div>
+                                                </td>
+                                                <td class="text-center">37</td>
+                                                <td class="none pink">Normal</td>
+                                                <td class="none"><a class="yell-bg fo10" href="#">Pending</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label>
+                                                        <input type="checkbox">
+                                                    </label>
+                                                    Define the problem
+                                                </td>
+                                                <td class="text-centerr">
+                                                    <div class="content5-boximg">
+                                                        <img src="asset/asset 13.jpeg" alt="">
+                                                        <img id="mm" src="asset/asset 19.jpeg" alt="">
+                                                        <img id="mm" src="asset/asset 20.jpeg" alt="">
+                                                        <img id="mm" src="asset/asset 11.jpeg" alt="">
+                                                    </div>
+                                                </td>
+                                                <td class="text-center">37</td>
+                                                <td class="none yell">Low</td>
+                                                <td class="none"><a class="blue-bg fo10" href="#">Completed</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label>
+                                                        <input type="checkbox">
+                                                    </label>
+                                                    Empathize with users
+                                                </td>
+                                                <td class="text-centerr">
+                                                    <div class="content5-boximg">
+                                                        <img src="asset/asideimg3.jpeg" alt="">
+                                                        <img id="mm" src="asset/asset 20.jpeg" alt="">
+                                                        <img id="mm" src="asset/asset 13.jpeg" alt="">
+                                                        <img id="mm" src="asset/asset 19.jpeg" alt="">
+                                                    </div>
+                                                </td>
+                                                <td class="text-center">37</td>
+                                                <td class="none blue">Hig h</td>
+                                                <td class="none"><a class="pink-bg fo10" href="#">Rejected</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- aside -->
+                    <div class="aside-main">
+                        <!-- aside-content-1 -->
+                        <div class="aside-content1main main-bg">
+                            <div class="aside-content1-heading">
+                                <h2>RECENT TRANSCATIONS</h2>
+                                <p>Projects where development work is on completion</p>
+                            </div>
+                            <div class="aside-content1-box d-flex">
+                                <div class="aside-content1-flex d-flex">
+                                    <div class="aside-content1-boximg">
+                                        <img src="asset/asideimg1.jpeg" alt="">
+                                    </div>
+                                    <div class="aside-content1-boxheading1">
+                                        <h2 class="font-co">Flicker</h2>
+                                        <p class="font-po">App improvement</p>
+                                    </div>
+                                </div>
+                                <div class="aside-content1-boxheading2">
+                                    <h2>$45.234<i class="fa-solid fa-turn-up"></i></h2>
+                                    <p>12 Jan 2020</p>
+                                </div>
+                            </div>
+                            <div class="aside-content1-box d-flex">
+                                <div class="aside-content1-flex d-flex">
+                                    <div class="aside-content1-boximg">
+                                        <img src="asset/asideimg2.jpeg" alt="">
+                                    </div>
+                                    <div class="aside-content1-boxheading1">
+                                        <h2 class="font-co">Intoxica</h2>
+                                        <p class="font-po">Milestone</p>
+                                    </div>
+                                </div>
+                                <div class="aside-content1-boxheading2">
+                                    <h2>$23.452<i class="fa-solid fa-turn-down"></i></h2>
+                                    <p>23 Jan 2020</p>
+                                </div>
+                            </div>
+                            <div class="aside-content1-box d-flex">
+                                <div class="aside-content1-flex d-flex">
+                                    <div class="aside-content1-boximg">
+                                        <img src="asset/asideimg3.jpeg" alt="">
+                                    </div>
+                                    <div class="aside-content1-boxheading1">
+                                        <h2 class="font-co">Digiwatt</h2>
+                                        <p class="font-po">Sales executive</p>
+                                    </div>
+                                </div>
+                                <div class="aside-content1-boxheading2">
+                                    <h2>$78.001<i class="fa-solid fa-turn-down"></i></h2>
+                                    <p>4 Apr 2020</p>
+                                </div>
+                            </div>
+                            <div class="aside-content1-box d-flex">
+                                <div class="aside-content1-flex d-flex">
+                                    <div class="aside-content1-boximg">
+                                        <img src="asset/asideimg4.jpeg" alt="">
+                                    </div>
+                                    <div class="aside-content1-boxheading1">
+                                        <h2 class="font-co">Flicker</h2>
+                                        <p class="font-po">Milestone2</p>
+                                    </div>
+                                </div>
+                                <div class="aside-content1-boxheading2">
+                                    <h2>$37.285<i class="fa-solid fa-turn-up"></i></h2>
+                                    <p>4 Apr 2020</p>
+                                </div>
+                            </div>
+                            <div class="aside-content1-box d-flex">
+                                <div class="aside-content1-flex d-flex">
+                                    <div class="aside-content1-boximg">
+                                        <img src="asset/asideimg5.jpeg" alt="">
+                                    </div>
+                                    <div class="aside-content1-boxheading1">
+                                        <h2 class="font-co">Flicker</h2>
+                                        <p class="font-po">App improvement</p>
+                                    </div>
+                                </div>
+                                <div class="aside-content1-boxheading2">
+                                    <h2>$25.341<i class="fa-solid fa-turn-down"></i></h2>
+                                    <p>4 Apr 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- aside-content-2 -->
+                        <div class="aside-content2main main-bg ssame">
+                            <div class="main-padding">
+                                <div class="aside-content2heading d-flex">
+                                    <div>
+                                        <h2 class="font-co">PROJECT LAUNCH</h2>
+                                        <p class="font-po">the project is going to launch</p>
+                                        <h2 class="aside-content2heading-h21 blue">145 days</h2>
+                                        <a href="#">12 Monday, Oct 2020</a>
+                                    </div>
+                                    <div class="aside-content2headingimg">
+                                        <img src="asset/ro.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- aside-content-3 -->
+                        <div class="aside-content3main main-bg">
+                            <div class="main-padding">
+                                <div class="aside-content3heading">
+                                    <h2 class="font-co">ON GOIONG PROJECTS</h2>
+                                    <p class="font-po">Projects where development work is on completion</p>
+                                </div>
+                                <div class="aside-content3-box">
+                                    <div class="aside-content3-box-padi d-flex">
+                                        <div class="aside-content3-boximg">
+                                            <img src="asset/rightimg2.jpeg" alt="">
+                                            <img id="mm" src="asset/asset 9.jpeg" alt="">
+                                            <img id="mm" src="asset/asset 10.jpeg" alt="">
+                                            <img id="mm" src="asset/asideimg5.jpeg" alt="">
+                                            <h2>Design team</h2>
+                                        </div>
+                                        <i class="fa-solid fa-ellipsis blue"></i>
+                                    </div>
+                                    <div class="aside-content3-box-padi2 d-flex">
+                                        <div>
+                                            <h2 class="blue">25 August 2020</h2>
+                                            <p>Mobile app design</p>
+                                        </div>
+                                        <div class="aside-content3-box-padi2-img">
+                                            <img src="asset/round.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="aside-content3-box" id="aside-content3-box2">
+                                    <div class="aside-content3-box-padi d-flex">
+                                        <div class="aside-content3-boximg">
+                                            <img src="asset/asideimg1.jpeg" alt="">
+                                            <img id="mm" src="asset/asideimg2.jpeg" alt="">
+                                            <img id="mm" src="asset/asideimg3.jpeg" alt="">
+                                            <img id="mm" src="asset/asideimg4.jpeg" alt="">
+                                            <h2>Design team</h2>
+                                        </div>
+                                        <i class="fa-solid fa-ellipsis blue"></i>
+                                    </div>
+                                    <div class="aside-content3-box-padi2 d-flex">
+                                        <div>
+                                            <h2 class="blue">25 August 2020</h2>
+                                            <p>Mobile app design</p>
+                                        </div>
+                                        <div class="aside-content3-box-padi2-img">
+                                            <img src="asset/rounds.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- aside-content-4 -->
+                        <div class="aside-content4main main-bg ssame">
+                            <div class="main-padding">
+                                <div class="aside-content4heading d-flex">
+                                    <div>
+                                        <h2 class="font-co">WEBSITE DESIGN</h2>
+                                        <p class="font-po">Task completed : 7/10</p>
+                                    </div>
+                                    <p class="font-po">Running</p>
+                                </div>
+                                <div class="aside-conten4-horimain">
+                                    <div class="aside-conten4-hori">
+                                        <div class="aside-conten4-sec"></div>
+                                    </div>
+                                    <div class="aside-conten4-hori">
+                                        <div class="aside-conten4-sec c2"></div>
+                                    </div>
+                                    <div class="aside-conten4-hori">
+                                        <div class="aside-conten4-sec c3"></div>
+                                    </div>
+                                    <div class="aside-conten4-hori">
+                                        <div class="aside-conten4-sec c4"></div>
+                                    </div>
+                                    <div class="aside-conten4-hori">
+                                        <div class="aside-conten4-sec c5"></div>
+                                    </div>
+                                    <div class="aside-conten4-hori">
+                                        <div class="aside-conten4-sec c6"></div>
+                                    </div>
+                                    <div class="aside-conten4-hori">
+                                        <div class="aside-conten4-sec c7"></div>
+                                    </div>
+                                    <div class="aside-conten4-hori">
+                                        <div class="aside-conten4-sec c8"></div>
+                                    </div>
+                                    <div class="aside-conten4-hori">
+                                        <div class="aside-conten4-sec c9"></div>
+                                    </div>
+                                    <div class="aside-conten4-hori">
+                                        <div class="aside-conten4-sec c10"></div>
+                                    </div>
+                                </div>
+                                <div class="aside-content4heading2 d-flex">
+                                    <div class="line-height">
+                                        <div class="aside-con4-flex">
+                                            <p class="font-po">Client :</p>
+                                            <p class="aside-con4-flex-p22 font-po">John Deo</p>
+                                        </div>
+                                        <div class="aside-con4-flex">
+                                            <p class="font-po">Deadline :</p>
+                                            <p class="aside-con4-flex-p2 font-po">25 Dec 2020</p>
+                                        </div>
+                                    </div>
+                                    <div class="aside-content4heading2-img">
+                                        <img src="asset/asset 22.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <p>Copyright © 2021 <span class="blue">Spruha</span>. Designed by <span class="blue">Zeel.xd</span> All rights
+            reserved.</p>
+    </footer>
+</body>
+
+</html>
